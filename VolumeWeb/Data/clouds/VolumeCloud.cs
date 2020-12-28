@@ -41,10 +41,8 @@ namespace VolumeWeb.Data.clouds
             string message = await client.GetStringAsync("https://localhost:5002/Volumes");
             Console.WriteLine(message);
             Console.WriteLine("!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!");
-            //Console.WriteLine(JsonSerializer.Deserialize(message,List<VolumeResult>.Enumerator);
             IList<VolumeResult> result = JsonSerializer.Deserialize<List<VolumeResult>>(message);
-            
-        
+
             return result;
         }
     }

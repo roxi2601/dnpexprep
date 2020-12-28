@@ -9,11 +9,32 @@
     <projectFile>VolumeWebAPI/VolumeWebAPI.csproj</projectFile>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="67accc70-0e9a-4eff-92d4-1fa22f2c5cac" name="Default Changelist" comment="" />
+    <list default="true" id="67accc70-0e9a-4eff-92d4-1fa22f2c5cac" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.dnpexprep/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.dnpexprep/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/VolumeWeb/Data/clouds/VolumeCloud.cs" beforeDir="false" afterPath="$PROJECT_DIR$/VolumeWeb/Data/clouds/VolumeCloud.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/VolumeWeb/bin/Debug/netcoreapp3.1/VolumeWeb.Views.dll" beforeDir="false" afterPath="$PROJECT_DIR$/VolumeWeb/bin/Debug/netcoreapp3.1/VolumeWeb.Views.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/VolumeWeb/bin/Debug/netcoreapp3.1/VolumeWeb.Views.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/VolumeWeb/bin/Debug/netcoreapp3.1/VolumeWeb.Views.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/VolumeWeb/bin/Debug/netcoreapp3.1/VolumeWeb.dll" beforeDir="false" afterPath="$PROJECT_DIR$/VolumeWeb/bin/Debug/netcoreapp3.1/VolumeWeb.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/VolumeWeb/bin/Debug/netcoreapp3.1/VolumeWeb.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/VolumeWeb/bin/Debug/netcoreapp3.1/VolumeWeb.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/VolumeWeb/obj/Debug/netcoreapp3.1/RazorDeclaration/VolumeWeb.dll" beforeDir="false" afterPath="$PROJECT_DIR$/VolumeWeb/obj/Debug/netcoreapp3.1/RazorDeclaration/VolumeWeb.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/VolumeWeb/obj/Debug/netcoreapp3.1/RazorDeclaration/VolumeWeb.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/VolumeWeb/obj/Debug/netcoreapp3.1/RazorDeclaration/VolumeWeb.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/VolumeWeb/obj/Debug/netcoreapp3.1/VolumeWeb.Views.dll" beforeDir="false" afterPath="$PROJECT_DIR$/VolumeWeb/obj/Debug/netcoreapp3.1/VolumeWeb.Views.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/VolumeWeb/obj/Debug/netcoreapp3.1/VolumeWeb.Views.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/VolumeWeb/obj/Debug/netcoreapp3.1/VolumeWeb.Views.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/VolumeWeb/obj/Debug/netcoreapp3.1/VolumeWeb.dll" beforeDir="false" afterPath="$PROJECT_DIR$/VolumeWeb/obj/Debug/netcoreapp3.1/VolumeWeb.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/VolumeWeb/obj/Debug/netcoreapp3.1/VolumeWeb.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/VolumeWeb/obj/Debug/netcoreapp3.1/VolumeWeb.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/VolumeWebAPI/Controllers/VolumeController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/VolumeWebAPI/Controllers/VolumeController.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/VolumeWebAPI/bin/Debug/netcoreapp3.1/VolumeWebAPI.dll" beforeDir="false" afterPath="$PROJECT_DIR$/VolumeWebAPI/bin/Debug/netcoreapp3.1/VolumeWebAPI.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/VolumeWebAPI/bin/Debug/netcoreapp3.1/VolumeWebAPI.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/VolumeWebAPI/bin/Debug/netcoreapp3.1/VolumeWebAPI.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/VolumeWebAPI/obj/Debug/netcoreapp3.1/VolumeWebAPI.dll" beforeDir="false" afterPath="$PROJECT_DIR$/VolumeWebAPI/obj/Debug/netcoreapp3.1/VolumeWebAPI.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/VolumeWebAPI/obj/Debug/netcoreapp3.1/VolumeWebAPI.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/VolumeWebAPI/obj/Debug/netcoreapp3.1/VolumeWebAPI.pdb" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="HighlightingSettingsPerFile">
     <setting file="file://$PROJECT_DIR$/VolumeWebService/Properties/launchSettings.json" root0="SKIP_HIGHLIGHTING" />
@@ -21,6 +42,7 @@
     <setting file="file://$PROJECT_DIR$/VolumeWebService/VolumeWebService/VolumeCalculator/IVolumesService.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/VolumeWebService/VolumeWebService/VolumeCalculator/VolumeResult.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/VolumeWebService/VolumeWebService/VolumeCalculator/Controller.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/VolumeWebAPI/Controllers/VolumeController.cs" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
@@ -50,16 +72,17 @@
         <option value="$PROJECT_DIR$/VolumeWebAPI/VolumeWebService/VolumeCalculator/Calculator.cs" />
         <option value="$PROJECT_DIR$/VolumeWebAPI/VolumeWebService/VolumeCalculator/Context.cs" />
         <option value="$PROJECT_DIR$/VolumeWebAPI/VolumeWebService/VolumeCalculator/IVolumesService.cs" />
-        <option value="$PROJECT_DIR$/VolumeWebAPI/Controllers/VolumeController.cs" />
         <option value="$PROJECT_DIR$/VolumeWebAPI/Program.cs" />
         <option value="$PROJECT_DIR$/VolumeWebAPI/volumes.json" />
         <option value="$PROJECT_DIR$/VolumeWeb/Model/VolumeResult.cs" />
-        <option value="$PROJECT_DIR$/VolumeWeb/Data/clouds/VolumeCloud.cs" />
         <option value="$PROJECT_DIR$/VolumeWebAPI/VolumeWebService/VolumeCalculator/VolumesService.cs" />
+        <option value="$PROJECT_DIR$/VolumeWeb/Data/clouds/VolumeCloud.cs" />
+        <option value="$PROJECT_DIR$/VolumeWebAPI/Controllers/VolumeController.cs" />
       </list>
     </option>
   </component>
   <component name="ProjectId" id="1m0XQNqYsJEvZZCP1SU38dovVTr" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="autoscrollToSource" value="true" />
     <option name="hideEmptyMiddlePackages" value="true" />
@@ -259,7 +282,7 @@
       <option name="presentableId" value="Default" />
       <updated>1608631470797</updated>
       <workItem from="1608631494444" duration="23515000" />
-      <workItem from="1609062468124" duration="18126000" />
+      <workItem from="1609062468124" duration="21155000" />
     </task>
     <servers />
   </component>
@@ -276,22 +299,30 @@
       <screen x="0" y="0" width="1280" height="680" />
     </state>
     <state x="191" y="0" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1280.680@0.0.1280.680" timestamp="1608722251715" />
-    <state width="1237" height="188" key="GridCell.Tab.0.bottom" timestamp="1609155980844">
+    <state x="518" y="238" key="Github.ShareDialog" timestamp="1609156117771">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1237" height="188" key="GridCell.Tab.0.bottom/0.0.1280.680@0.0.1280.680" timestamp="1609155980844" />
-    <state width="1237" height="188" key="GridCell.Tab.0.center" timestamp="1609155980843">
+    <state x="518" y="238" key="Github.ShareDialog/0.0.1280.680@0.0.1280.680" timestamp="1609156117771" />
+    <state x="388" y="46" key="Github.UntrackedFilesDialog" timestamp="1609156127463">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1237" height="188" key="GridCell.Tab.0.center/0.0.1280.680@0.0.1280.680" timestamp="1609155980843" />
-    <state width="1237" height="188" key="GridCell.Tab.0.left" timestamp="1609155980843">
+    <state x="388" y="46" key="Github.UntrackedFilesDialog/0.0.1280.680@0.0.1280.680" timestamp="1609156127463" />
+    <state width="1237" height="188" key="GridCell.Tab.0.bottom" timestamp="1609159705652">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1237" height="188" key="GridCell.Tab.0.left/0.0.1280.680@0.0.1280.680" timestamp="1609155980843" />
-    <state width="1237" height="188" key="GridCell.Tab.0.right" timestamp="1609155980843">
+    <state width="1237" height="188" key="GridCell.Tab.0.bottom/0.0.1280.680@0.0.1280.680" timestamp="1609159705652" />
+    <state width="1237" height="188" key="GridCell.Tab.0.center" timestamp="1609159705652">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1237" height="188" key="GridCell.Tab.0.right/0.0.1280.680@0.0.1280.680" timestamp="1609155980843" />
+    <state width="1237" height="188" key="GridCell.Tab.0.center/0.0.1280.680@0.0.1280.680" timestamp="1609159705652" />
+    <state width="1237" height="188" key="GridCell.Tab.0.left" timestamp="1609159705652">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state width="1237" height="188" key="GridCell.Tab.0.left/0.0.1280.680@0.0.1280.680" timestamp="1609159705652" />
+    <state width="1237" height="188" key="GridCell.Tab.0.right" timestamp="1609159705652">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state width="1237" height="188" key="GridCell.Tab.0.right/0.0.1280.680@0.0.1280.680" timestamp="1609159705652" />
     <state x="233" y="72" key="Rider.ProjectTemplateDialog.Size" timestamp="1608721799166">
       <screen x="0" y="0" width="1280" height="680" />
     </state>

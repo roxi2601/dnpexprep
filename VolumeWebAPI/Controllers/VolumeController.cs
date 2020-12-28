@@ -54,7 +54,8 @@ namespace VolumeWebAPI.Controllers
             try
             {
                 Console.WriteLine("controllerrrrrrrrrrrrrrrrrrrrrrrrrrrrrrr");
-                return Ok(volumesService.GetVolumes());
+                IList<VolumeResult> results = await volumesService.GetVolumes();
+                return Ok(results);
             }
             catch (Exception e)
             {
@@ -66,7 +67,7 @@ namespace VolumeWebAPI.Controllers
         [HttpPost]
         public async Task<ActionResult<VolumeResult>> AddVolume([FromBody] VolumeResult volume)
         {
-            Console.WriteLine("add");
+            Console.WriteLine("adddddddddddddddddddddddd");
             if (!ModelState.IsValid)
             {
                 return StatusCode(400, "The data are not typed in correctly, specify height and radius");
