@@ -1,0 +1,79 @@
+﻿@page "/AddVolume"
+@using VolumeWeb.Model
+@using VolumeWeb.Data
+@inject NavigationManager NavigationManager
+@inject IVolumesService IVolumesService
+<EditForm Model="@newVolume" OnValidSubmit="@AddNewVolume">
+<div id="addForm">
+        
+        <h3 id="AddVolume" xmlns="http://www.w3.org/1999/html">Calculate</h3>
+        <div class="col-12 row">
+
+            <span class="col-6">
+                <div class="form-group" style="font-family: -webkit-body;  color:#821ef4">
+                    Type:<br/>
+                    <InputText @bind-Value="@newVolume.Type"/></div></span>
+                 <span class="col-6">
+                <div class="form-group " style="font-family: -webkit-body;  color:#821ef4">
+                    Height:<br/>
+                    <InputNumber @bind-Value="@newVolume.Height"/>
+                </div>
+            </span>
+
+        </div>
+        <div class="col-12 row">
+           <span class="col-6">
+                           <div class="form-group " style="font-family: -webkit-body;  color:#821ef4">
+                               Radius:<br/>
+                               <InputNumber @bind-Value="@newVolume.Radius"/>
+                           </div></span>
+            <span class="col-6">
+               </span>
+        </div>
+        
+        <div class="col-12 row">
+            
+            <span class="col-6">
+                
+                <div style="color:red">@errorMessage</div>
+            
+            </span>
+            <span class="col-6">
+                                       <p class="actions">
+                                           <button class="buttonMenu" type="submit" href="/Volumes">
+                                               <span>Create</span>
+                                           </button>
+                                       </p>
+                                   </span>
+        </div>
+</div>
+  </EditForm>
+@code {
+    private VolumeResult newVolume = new VolumeResult();
+    private string errorMessage;
+
+    private async Task AddNewVolume()
+    {
+        errorMessage = "";
+        try
+        {
+            if (newVolume.Height==0 || newVolume.Radius==0) 
+            {
+                throw new Exception("Specify height and radius, cannot be 0");
+            }
+            if (String.IsNullOrEmpty(newVolume.Type))
+            {
+                throw  new Exception("Specify type, it can be 'cylinder' or 'cone' :)");
+            }
+            await IVolumesService.AddVolumeAsync(newVolume);
+            NavigationManager.NavigateTo("/Volumes");
+        }
+        catch (Exception e)
+        {
+            Console.WriteLine(e);
+            errorMessage = e.Message;
+        }
+        
+    }
+
+}

@@ -1,0 +1,56 @@
+﻿@page "/Volumes"
+@using VolumeWeb.Model
+@using VolumeWeb.Data
+@inject IVolumesService VolumesService
+<h3 id="ListPerson">Volume List</h3>
+
+
+@if (results == null)
+{
+    <p>
+    <em> Loading.. </em>
+    </p>
+}
+else if (!results.Any())
+{
+    <p>
+        <em>No volumes exist, Please add some.</em>
+    </p>
+}
+else
+{
+    <table class="table">
+
+        <tr>
+            <th>Id</th>
+            <th>Type</th>
+            <th>Height</th>
+            <th>Radius</th>
+            <th>Volume</th>
+        </tr>
+
+    <tbody>
+    @foreach (var volume in results)
+    {
+        <tr>
+    <td>@volume.Id</td>
+    <td>@volume.Type</td>
+    <td>@volume.Height</td>
+    <td>@volume.Radius</td>
+    <td>@volume.Volume</td>
+    </tr>
+
+    } </tbody>
+      </table>
+      
+         }
+    
+@code {
+    private IList<VolumeResult> results;
+    
+    protected override async Task OnInitializedAsync()
+    {
+        results = await VolumesService.GetVolumes();
+    }
+
+}

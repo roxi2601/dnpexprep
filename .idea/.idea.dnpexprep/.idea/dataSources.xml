@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DataSourceManagerImpl" format="xml" multifile-model="true">
+    <data-source source="LOCAL" name="Volumes.db" uuid="834c0c18-3f39-44bd-a209-1cab1fa7ff20">
+      <driver-ref>sqlite.xerial</driver-ref>
+      <synchronize>true</synchronize>
+      <jdbc-driver>org.sqlite.JDBC</jdbc-driver>
+      <jdbc-url>jdbc:sqlite:$PROJECT_DIR$/VolumeWebService/Volumes.db</jdbc-url>
+    </data-source>
+    <data-source source="LOCAL" name="Volumes.db [2]" uuid="3c1fcfe1-ed04-4ebc-bd24-ff0c5535ec08">
+      <driver-ref>sqlite.xerial</driver-ref>
+      <synchronize>true</synchronize>
+      <jdbc-driver>org.sqlite.JDBC</jdbc-driver>
+      <jdbc-url>jdbc:sqlite:$PROJECT_DIR$/VolumeWebAPI/Volumes.db</jdbc-url>
+    </data-source>
+  </component>
+</project>
